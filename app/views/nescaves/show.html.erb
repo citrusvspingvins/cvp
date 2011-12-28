@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @nescafe.name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @nescafe.email %>
+</p>
+
+
+<%= link_to 'Edit', edit_nescafe_path(@nescafe) %> |
+<%= link_to 'Back', nescaves_path %>

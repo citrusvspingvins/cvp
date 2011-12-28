@@ -1,0 +1,11 @@
+<html>
+  <head>
+    <title><%= @title%></title>  
+    <%= stylesheet_link_tag 'style', :media => 'screen' %>
+  </head>
+  <body>
+     <%= render 'layouts/header' %>
+     <%= yield %>
+     <%= render 'layouts/footer' %>
+  </body>
+</html>

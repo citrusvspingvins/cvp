@@ -1,0 +1,25 @@
+<h1>Listing nescaves</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @nescaves.each do |nescafe| %>
+  <tr>
+    <td><%= nescafe.name %></td>
+    <td><%= nescafe.email %></td>
+    <td><%= link_to 'Show', nescafe %></td>
+    <td><%= link_to 'Edit', edit_nescafe_path(nescafe) %></td>
+    <td><%= link_to 'Destroy', nescafe, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Nescafe', new_nescafe_path %>

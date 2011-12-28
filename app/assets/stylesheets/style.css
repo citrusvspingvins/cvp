@@ -1,0 +1,40 @@
+body, html {
+margin:0px;
+padding:0px;
+height: 100%;
+background: #fff; 
+font: 20px Hoefler Text, bodyfont, serif;
+color: #333;
+#line-height: 25px;
+}
+
+#content {
+width:850px;
+margin:0 auto;
+min-height: 700px;
+}
+
+#left{
+#border-right: dotted 1px;
+padding-right:px;
+margin-left:0px;
+margin-top:0px;
+width:420px;
+float:left;
+text-align: justify;
+}
+#right{
+margin-left:430px;
+padding-left:0px;
+margin-top:0px;
+width:420px;
+text-align: justify;
+}
+
+footer{
+width:850px;
+font: 20px Hoefler Text, bodyfont, serif;
+color: #c0c0c0;
+text-align: center;
+}
+

@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  ping: 1
+  cit: 1
+
+two:
+  ping: 1
+  cit: 1
